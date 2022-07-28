@@ -28,8 +28,12 @@ public class ClipboardView extends VerticalLayout {
         setSizeFull();
         setDefaultHorizontalComponentAlignment(Alignment.STRETCH);
 
-        add(new H1("Vaadin Flow Clipboard Demo"));
-        add(new Span("Addon version 1.0.2, built with Vaadin 14.8.14."));
+        H1 title = new H1("Clipboard for Vaadin Flow Demo");
+        title.getStyle().set("font-size", "1.25em").set("margin-bottom", "0");
+        add(title);
+        Span subtitle = new Span("Addon version 1.0.2, built with Vaadin 14.8.14.");
+        subtitle.getStyle().set("color", "gray").set("font-size", "0.8em");
+        add(subtitle);
 
         // read part
         Pre output = new Pre();
