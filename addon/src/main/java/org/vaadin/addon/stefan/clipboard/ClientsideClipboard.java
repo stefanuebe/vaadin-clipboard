@@ -1,4 +1,4 @@
-package org.vaadin.stefan.clipboard;
+package org.vaadin.addon.stefan.clipboard;
 
 import com.vaadin.flow.component.HasElement;
 import com.vaadin.flow.component.UI;

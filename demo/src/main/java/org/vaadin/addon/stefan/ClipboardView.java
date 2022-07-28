@@ -1,4 +1,4 @@
-package org.vaadin.stefan;
+package org.vaadin.addon.stefan;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.button.Button;
@@ -11,7 +11,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextArea;
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.Route;
-import org.vaadin.stefan.clipboard.ClientsideClipboard;
+import org.vaadin.addon.stefan.clipboard.ClientsideClipboard;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -29,7 +29,7 @@ public class ClipboardView extends VerticalLayout {
         setDefaultHorizontalComponentAlignment(Alignment.STRETCH);
 
         add(new H1("Vaadin Flow Clipboard Demo"));
-        add(new Span("Addon version 1.0.0. Built with Vaadin 14.8.14."));
+        add(new Span("Addon version 1.0.2, built with Vaadin 14.8.14."));
 
         // read part
         Pre output = new Pre();

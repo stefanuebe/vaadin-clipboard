@@ -5,11 +5,14 @@ Vaadin Flow utility to access the clientside clipboard.
 ## Description
 
 This addon provides a utility class to access the clientside clipboard. It utilizes the browser "navigation.clipboard" 
-api, which provides the possibility to directly access the clipboard without using execCommand or 
+api, which allows to directly access the clipboard without using execCommand or 
 add some text holding element first. 
 
 Currently only allows to read or write text as read / write of other data
 is not yet fully supported by all main browsers.
+
+Please see the [this list](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard) for details on supported
+browsers.
 
 ## Features
 - reading text from the clientside clipboard

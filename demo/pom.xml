@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.vaadin.stefan</groupId>
+    <groupId>org.vaadin.addons.stefan</groupId>
     <artifactId>clipboard-demo</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
 
     <name>Clipboard for Flow Demo</name>
 
@@ -89,9 +89,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.vaadin.stefan</groupId>
+            <groupId>org.vaadin.addons.stefan</groupId>
             <artifactId>clipboard</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
 
         <dependency>

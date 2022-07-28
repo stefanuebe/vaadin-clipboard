@@ -1,4 +1,4 @@
-package org.vaadin.stefan;
+package org.vaadin.addon.stefan;
 
 import com.vaadin.flow.component.dependency.NpmPackage;
 import org.springframework.boot.SpringApplication;
