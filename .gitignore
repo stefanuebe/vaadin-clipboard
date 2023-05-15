@@ -29,3 +29,7 @@ webpack.generated.js
 */frontend/generated/index.ts
 */vite.generated.ts
 */vite.config.ts
+/demo/frontend/generated/
+/demo/.pnpmfile.cjs
+/demo/.npmrc
+/demo/frontend/index.html

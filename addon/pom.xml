@@ -3,7 +3,7 @@
 
     <groupId>org.vaadin.addons.stefan</groupId>
     <artifactId>clipboard</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>Clipboard for Flow</name>
     <description>Integration of paper-slider for Vaadin platform</description>
 
