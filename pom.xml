@@ -3,7 +3,7 @@
 
     <groupId>org.vaadin.addons.stefan</groupId>
     <artifactId>clipboard-parent</artifactId>
-    <version>1.0.3</version>
+    <version>1.04</version>
 
     <name>Clipboard for Flow Parent</name>
     <description>A utility to access the clientside clipboard from Vaadin Flow</description>

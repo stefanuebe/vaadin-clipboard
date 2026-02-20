@@ -92,7 +92,7 @@
         <dependency>
             <groupId>org.vaadin.addons.stefan</groupId>
             <artifactId>clipboard</artifactId>
-            <version>1.0.3</version>
+            <version>1.04</version>
         </dependency>
 
         <dependency>
