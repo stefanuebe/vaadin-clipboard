@@ -3,12 +3,12 @@
 
     <groupId>org.vaadin.addons.stefan</groupId>
     <artifactId>clipboard</artifactId>
-    <version>1.04</version>
+    <version>1.0.4</version>
     <name>Clipboard for Flow</name>
     <description>Integration of paper-slider for Vaadin platform</description>
 
     <properties>
-        <vaadin.version>14.8.14</vaadin.version>
+        <vaadin.version>14.11.13</vaadin.version>
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -75,7 +75,7 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <!-- Replace artifactId with vaadin-core to use only free components -->
-            <artifactId>vaadin</artifactId>
+            <artifactId>vaadin-core</artifactId>
             <exclusions>
                 <!-- Webjars are only needed when running in Vaadin 13 compatibility mode in V14.
                      Your add-on can support npm in the same version mode and V13 compatiblity mode at the same time,
